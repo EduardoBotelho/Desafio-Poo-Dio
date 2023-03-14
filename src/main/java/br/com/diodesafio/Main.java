@@ -1,5 +1,6 @@
 package br.com.diodesafio;
 
+import br.com.desafiodio.dominio.Conteudo;
 import br.com.desafiodio.dominio.Curso;
 import br.com.desafiodio.dominio.Mentoria;
 
@@ -26,6 +27,10 @@ public class Main {
         mentoria.setData(LocalDate.now());
 
 
+        //Polimorfismo
+       // Conteudo conteudo = new Curso();
+        //Conteudo conteudo1 = new Mentoria();
+        // Conteudo nao pode ser instaciado por que e classe abstrata, mas pode se usar o objeto Curso ou Mentoria
 
         System.out.println(curso1);
         System.out.println(curso2);
